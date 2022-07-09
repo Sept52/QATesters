@@ -1,0 +1,26 @@
+.name_col {
+    display: flex;
+    color: rgb(124, 124, 124);
+    font-size: 15px;
+    border-bottom: 1px solid rgb(173, 173, 173);
+    padding: 5px 0;
+    justify-content: space-between;
+    
+    :first-child {
+        width: 15%;
+    }
+    :nth-child(2) {
+        width: 30%;
+    }
+    :nth-child(3) {
+        width: 30%;
+    }
+    :nth-child(4) {
+        width: 15%;
+    }
+}
+
+.item {
+    border-bottom: 1px solid rgb(173, 173, 173);
+    font-size: 15px;
+}
